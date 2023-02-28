@@ -1,0 +1,64 @@
+#title1 {
+  color: black;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+body {
+  padding: 30px;
+  background: #f8f8f8;
+}
+.container {
+  width: 400px;
+  margin: auto;
+}
+h1 {
+  font-size: 1.4rem;
+}
+.bar {
+  fill: steelblue;
+}
+.bar:hover {
+  fill: #7eb0d5;
+}
+.bar:active {
+  stroke: #0fa528;
+}
+.comparativeBar:hover {
+  fill: #7eb0d5;
+}
+.axis text {
+  fill: #000000;
+  font-size: 12px;
+}
+.axis-title {
+  font-size: 15px;
+}
+.axis path {
+  shape-rendering: crispEdges;
+  stroke: #000000;
+}
+.y-axis .domain {
+  stroke: #000000;
+}
+.point {
+  fill: "black" 
+}
+.solar_system {
+  font-size: 12px;
+  font-weight: bold;
+}
+#tooltip {
+  position: absolute;
+  opacity: 0;
+  background: #cad8ff;
+  border: 1px solid #000000;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 2px 8px;
+}
+.tooltip-label {
+  font-weight: bold;
+  font-size: 15px;
+  color: #000000;
+}
